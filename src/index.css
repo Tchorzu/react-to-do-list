@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Helvetica, sans-serif;
+  background-color: deepskyblue;
+  display: flex;
+  justify-content: center;
+}

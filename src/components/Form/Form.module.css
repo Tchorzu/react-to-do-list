@@ -1,0 +1,36 @@
+.form{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 24px;
+}
+
+.input{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.button{
+    background-color: transparent;
+    padding: 4px 8px;
+    border: 1px solid deepskyblue;
+    border-radius: 4px;
+    color: deepskyblue;
+    font-size: 11px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.button:hover{
+    background-color: deepskyblue;
+    color: white;
+}
+
+.error{
+    margin-top: 5px;
+    padding: 0;
+    color: red;
+    font-size: 12px;
+}

@@ -1,0 +1,29 @@
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 18px 0;
+    border-top: 1px solid black;
+    min-width: 400px;
+}
+
+.taskName{
+    width: 100%;
+}
+
+.button{
+    background-color: transparent;
+    padding: 4px 8px;
+    border: 1px solid deepskyblue;
+    border-radius: 4px;
+    color: deepskyblue;
+    font-size: 11px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.button:hover{
+    background-color: deepskyblue;
+    color: white;
+}
